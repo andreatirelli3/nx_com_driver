@@ -144,7 +144,7 @@ class NXComDriver {
     // Serial port response
     String response = '';
 
-    var completer = Completer<String>();
+    Completer completer = Completer<String>();
 
     // Read data from serial port
     try {
