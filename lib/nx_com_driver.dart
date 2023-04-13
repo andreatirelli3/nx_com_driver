@@ -184,5 +184,6 @@ class NXComDriver {
     print('Stop bits: \t\t${cfg.stopBits}');
     print('Data bits: \t\t${cfg.bits}');
     print('Parity: \t\t${cfg.parity}');
+    print('Timeout: \t\t$_timeout');
   }
 }
